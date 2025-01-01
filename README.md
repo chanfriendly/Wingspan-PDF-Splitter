@@ -1,6 +1,6 @@
 # PDF Page Splitter and Image Converter
 
-This Python script takes a folder of PDF files and converts each page into individual image files (JPEG or PNG format). It's particularly useful for breaking down multi-page PDFs into separate images while maintaining high quality.
+This Python script takes a folder of PDF files and converts each page into individual image files (JPEG or PNG format). It's particularly useful for breaking down multi-page PDFs into separate images while maintaining high quality. It was intended for helping a friend with Wingspan custom cards, however it can be used for any PDF you want to split.
 
 ## Prerequisites
 
@@ -9,6 +9,8 @@ This Python script takes a folder of PDF files and converts each page into indiv
 - Required Python packages (automatically installed by the script):
   - pdf2image
 - Poppler (automatically installed via Homebrew on macOS)
+- If using for Wingspan, I've already compiled all the available PDFs as of 1/1/25 in this [Google Drive ]([url](https://drive.google.com/drive/folders/1UTNUvOgeOwFbyanAUCNlvl_Eo0wcSMbF?usp=sharing)), both split and not split. I plan on making a tool similar to [MPCFill]([url](https://mpcfill.com/)) to make automating uploads a breeze.
+-   Note that there are two PDFS that made cards a 3x3 grid instead of each card on its own page. I haven't resolved these yet.
 
 ## Installation
 
